@@ -197,7 +197,7 @@ let theta = Math.ceil(Math.random() * 10000);
         interval: 3000
     })
 
-    $.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent('https://pqfv.rezel.net/') + '&callback=?', function(data){
+    $.getJSON('https://www.whateverorigin.org/get?url=' + encodeURIComponent('https://pqfv.rezel.net/') + '&callback=?', function(data){
         //console.log(data.contents)
         var docRezel = document.createElement( 'html' );
         docRezel.innerHTML = data.contents.toString()
