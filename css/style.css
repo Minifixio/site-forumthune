@@ -2404,5 +2404,8 @@ ol {
 
 .header__nav__option {
   text-align: unset !important;
-  
+}
+
+#quatre_eme_caractere_text{
+  color: white;
 }

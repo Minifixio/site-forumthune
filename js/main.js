@@ -13,6 +13,8 @@
 let container = document.querySelector(".roue_inte");
 let btn = document.getElementById("spin");
 let theta = Math.ceil(Math.random() * 10000);
+let websites = ["https://www.instagram.com/cerzvre_pnenpgrer/", "https://youtu.be/d64e6sGeMIE", "https://youtu.be/V96ShiGU8JQ", "4eme_caractere.html", "5eme_caractere.html"];
+
 
 (function ($) {
 
@@ -49,7 +51,10 @@ let theta = Math.ceil(Math.random() * 10000);
         container.style.transform = "rotate(" + theta + "deg)";
         theta += Math.ceil(Math.random() * 10000);
         history.pushState({}, '', "index.html")
-        setTimeout(() => {   window.location.replace("http://eelslap.com/"); }, 3000);
+        setTimeout(() => {   
+            let id_link = Math.floor(Math.random() * 5);
+            window.location.replace(websites[id_link]); 
+        }, 3000);
        
     });
 
