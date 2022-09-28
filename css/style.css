@@ -2313,6 +2313,27 @@ ol {
   color:#fff;
 }
 
+#apero-vignette-4:hover {
+  border: 1px solid transparent !important;
+  background: url(../img/aperos/apero-4/apero-4-3.jpg) no-repeat;
+  background-size: cover;
+}
+
+#apero-vignette-4.latest__item:hover {
+  border: 1px solid #222222 !important;
+  background: url(../img/blog/blog-1.jpg);
+  background-size: cover;
+}
+
+#apero-vignette-4:hover a{
+  color:#fff;
+}
+
+#apero-vignette-4:hover li{
+  color:#fff;
+}
+
+
 #apero-vignette-1:hover {
   border: 1px solid transparent !important;
   background: url(../img/aperos/apero-1/apero-1-1.jpg) no-repeat;
