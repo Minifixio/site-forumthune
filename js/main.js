@@ -13,7 +13,7 @@
 let container = document.querySelector(".roue_inte");
 let btn = document.getElementById("spin");
 let theta = Math.ceil(Math.random() * 10000);
-let websites = ["https://www.instagram.com/cerzvre_pnenpgrer/", "https://youtu.be/d64e6sGeMIE", "https://youtu.be/V96ShiGU8JQ", "4eme_caractere.html", "5eme_caractere.html", "5derniers_caracteres.html"];
+let websites = ["https://www.instagram.com/cerzvre_pnenpgrer/", "https://youtu.be/d64e6sGeMIE", "https://youtu.be/V96ShiGU8JQ", "4eme_caractere.html", "5eme_caractere.html", "5derniers_caracteres.html" ];
 
 
 (function ($) {
@@ -52,7 +52,7 @@ let websites = ["https://www.instagram.com/cerzvre_pnenpgrer/", "https://youtu.b
         theta += Math.ceil(Math.random() * 10000);
         history.pushState({}, '', "index.html")
         setTimeout(() => {   
-            let id_link = Math.floor(Math.random() * 5);
+            let id_link = Math.floor(Math.random() * 6);
             window.location.replace(websites[id_link]); 
         }, 3000);
        
