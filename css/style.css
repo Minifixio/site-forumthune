@@ -2438,10 +2438,11 @@ ol {
     justify-content: center;
     height: 100%;
     margin: 10px;
+    flex-direction: row;
 }
 
 #p-derniers-caracteres {
   color: black;
-  font-size: 100px;
+  font-size: 5em;
   line-height: 100px !important;
 }
