@@ -1,0 +1,5 @@
+# BEGIN Protection git
+RedirectMatch 404 "/\.git$"
+RedirectMatch 404 "/\.git/"
+RedirectMatch 404 "/\.gitignore$"
+# END Protection git
