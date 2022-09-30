@@ -2430,3 +2430,18 @@ ol {
 #quatre_eme_caractere_text{
   color: white;
 }
+
+#div-derniers-caracteres {
+   display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px;
+}
+
+#p-derniers-caracteres {
+  color: black;
+  font-size: 100px;
+  line-height: 100px !important;
+}
